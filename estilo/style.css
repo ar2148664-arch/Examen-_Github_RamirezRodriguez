@@ -1,0 +1,144 @@
+/* ====== ESTILO 2: Temática acuática y deportiva ====== */
+
+/* Reinicio básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fondo y fuente general */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(180deg, #dff6ff 0%, #ffffff 100%);
+  color: #0d3b66;
+  padding: 40px;
+  line-height: 1.6;
+}
+
+/* Encabezado principal */
+h1 {
+  text-align: center;
+  color: #0077b6;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 6px rgba(0, 119, 182, 0.2);
+  letter-spacing: 1px;
+}
+
+/* Subtítulos */
+h2 {
+  color: #005f73;
+  border-left: 6px solid #00b4d8;
+  padding-left: 10px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 1.4em;
+}
+
+/* Párrafos */
+p {
+  margin-bottom: 15px;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+/* Listas */
+ul {
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+ul li {
+  margin-bottom: 6px;
+}
+
+/* TABLA */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #e0f7fa;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table tr:first-child {
+  background-color: #00b4d8;
+  color: white;
+  font-weight: bold;
+}
+
+td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #b2ebf2;
+}
+
+/* Alternancia de filas */
+tr:nth-child(even) {
+  background-color: #caf0f8;
+}
+
+/* Última fila sin borde */
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* Imagen centrada */
+div[align="center"] img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  max-width: 90%;
+  height: auto;
+  border: 3px solid #00b4d8;
+  box-shadow: 0 4px 15px rgba(0, 180, 216, 0.3);
+  transition: transform 0.3s ease;
+}
+
+div[align="center"] img:hover {
+  transform: scale(1.05);
+}
+
+/* Enlace */
+a {
+  color: #0077b6;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #03045e;
+  text-decoration: underline;
+}
+
+/* Caja general */
+body > div, main, section {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  padding: 25px;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 8px 20px rgba(0, 119, 182, 0.15);
+}
+
+/* Efecto de resalte para secciones */
+h2:hover {
+  color: #0096c7;
+  transition: color 0.3s;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  table td {
+    font-size: 0.9em;
+  }
+}
